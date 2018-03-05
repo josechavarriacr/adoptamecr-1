@@ -1,5 +1,9 @@
 {
   "name": "adoptamecr",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "jquery-ujs": "^1.2.2"
+  }
 }
