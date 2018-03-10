@@ -35,6 +35,8 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem 'scout_apm'
+
 group :production do
   gem "rails_12factor"
   gem "rack-timeout"
