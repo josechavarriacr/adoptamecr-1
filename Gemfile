@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby "2.4.1"
+ruby "2.5.0"
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
   "https://github.com/#{repo_name}.git"
@@ -58,7 +58,6 @@ group :development do
   gem "spring", "2.0.2"
   gem "letter_opener"
   gem "annotate"
-  gem "turbo_dev_assets", "0.0.2"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

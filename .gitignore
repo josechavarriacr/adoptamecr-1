@@ -36,7 +36,6 @@ tmp/
 
 /node_modules
 /yarn-error.log
-/config/mail_chimp.yml
 .byebug_history
 
 # Ignore application configuration
