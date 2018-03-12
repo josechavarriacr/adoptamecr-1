@@ -44,6 +44,12 @@ group :production do
 end
 
 group :development, :test do
+  # RSpec (unit tests, some integration tests)
+  gem 'rspec-rails', '~> 3.7'
+
+  # Cucumber (integration tests)
+  gem "cucumber-rails", "1.5.0", require: false
+  
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'listen', '~> 3.0.5'
